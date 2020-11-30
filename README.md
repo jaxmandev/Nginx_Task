@@ -52,3 +52,4 @@ export DB_HOST
 pm2 start app.js --update-env
 ```
 5. Visit the page at http://development.local/posts
+
