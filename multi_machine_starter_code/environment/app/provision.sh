@@ -47,7 +47,7 @@ sudo ln -s /etc/nginx/sites-available/custom_server.conf /etc/nginx/sites-enable
 # Test the nginx service
 sudo service nginx configtest
 
-# Restart the nginx service so the new config takes hold
+# Restart the nginx service so the new config implemented
 sudo systemctl nginx restart
 
 # Navigate to the app location
